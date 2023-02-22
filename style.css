@@ -18,7 +18,7 @@ body {
   perspective: 340px;
 }
 
-[stars] {
+#stars {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -145,19 +145,19 @@ body {
   animation: fly 3s linear infinite;
   transform-style: preserve-3d;
 }
-[stars]:before,
-[stars]:after {
+#stars:before,
+#stars:after {
   content: "";
   position: absolute;
   width: inherit;
   height: inherit;
   box-shadow: inherit;
 }
-[stars]:before {
+#stars:before {
   transform: translateZ(-300px);
   animation: fade1 3s linear infinite;
 }
-[stars]:after {
+#stars:after {
   transform: translateZ(-600px);
   animation: fade2 3s linear infinite;
 }
@@ -195,14 +195,14 @@ html {
   background-color: black;
 }
 
-[window] {
+#window {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-[wrap] {
+#wrap {
   width: 420px;
   z-index: 10;
   position: relative;
@@ -217,7 +217,7 @@ h1 {
   text-align: center;
 }
 
-[bioline] {
+#bioline {
   font-size: 16px;
   font-weight: 500;
   color: #888;
@@ -225,28 +225,28 @@ h1 {
   margin: 0.2rem 0;
 }
 
-[items] {
+#items {
   display: flex;
   flex-direction: column;
 }
 
-[item] {
+#item {
   margin-bottom: 1rem;
 }
 
-[item] a {
+#item a {
   text-decoration: none;
   color: #fff;
   font-size: 2.5rem;
   font-weight: 500;
 }
 
-[item] a:hover::before {
+#item a:hover::before {
   content: ">";
   text-decoration: none;
 }
 
-[stream] {
+#stream {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
@@ -255,7 +255,7 @@ h1 {
   border-width: 2px;
 }
 
-[stream] iframe {
+#stream iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -263,13 +263,13 @@ h1 {
   height: 100%;
 }
 
-[logo] {
+#logo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-[image-switch] {
+#image-switch {
   display: block;
   height: calc(100px / 2);
   width: calc(143px / 2);
@@ -279,20 +279,20 @@ h1 {
   position: absolute;
 }
 
-[nft]:hover {
+#nft:hover {
   transform: scale(1.2);
   transition: all 0.1s;
   cursor: pointer;
 }
 
-[bottom] {
+#bottom {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 1rem;
 }
 
-[nft] {
+#nft {
   position: absolute;
   right: 0px;
   --rotating-font-size: 0.43rem;
@@ -304,7 +304,7 @@ h1 {
   justify-content: center;
   transform: scale(1);
 }
-[nft] a {
+#nft a {
   display: contents;
 }
 
